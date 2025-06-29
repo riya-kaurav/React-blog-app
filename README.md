@@ -22,7 +22,6 @@ A minimal blog app built using **React (Vite)**, **Appwrite**, and **TailwindCSS
 
 ---
 
-## 🌐 Live Demo
 
 
 
