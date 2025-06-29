@@ -5,7 +5,7 @@ import Container from './container/Container';
 import Logo from './Logo';
 import LogoutBtn from './Header/LogoutBtn';
 import PostCard from './PostCard';
-import PostForm from './PostForm';
+import PostForm from './post-form/PostForm';
 import Button from './Button';
 import Input from './Input';
 import RTE from './RTE';
