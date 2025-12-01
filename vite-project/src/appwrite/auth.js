@@ -73,7 +73,7 @@ export class AuthService {
       .setEndpoint(conf.appwriteUrl)
       .setProject(conf.appwriteProjectId);
 
-    this.account = new Account(this.client); // ✅ correct and safe
+    this.account = new Account(this.client); // correct and safe
   }
 
   async createAccount({ email, password, name }) {
@@ -118,3 +118,5 @@ export class AuthService {
 
 const authService = new AuthService();
 export default authService;
+
+

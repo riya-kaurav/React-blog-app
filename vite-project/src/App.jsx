@@ -27,19 +27,21 @@ function App() {
   } , [])
   
 
-  return !loading ? (
-    <div className ='min-h-screen flex flex-wrap content-between bg-gray-400'>
-      <div className ='w-full block'>
-        <Header />
-        <main>
-          TODO : <Outlet />
+ return !loading ? (
+  <div className="min-h-screen flex flex-col bg-gray-400">
+    {/* Header */}
+    <Header />
 
-        </main>
-        <Footer />
-      </div>
-    </div>
-    
-  ) : null
+    {/* Main content grows to push footer down */}
+    <main className="flex-grow">
+      <Outlet />
+    </main>
+
+    {/* Footer pinned at bottom */}
+    <Footer />
+  </div>
+) : null;
+
 }
 
 export default App
