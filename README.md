@@ -44,7 +44,7 @@ npm run dev
 - Contributions are welcome!
 
 - Fork the repository
-- Create a new branch (feature/your-feature)
+- Create a new branch 
 - Commit your changes
 - Push to your branch
 - Open a Pull Request
