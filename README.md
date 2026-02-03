@@ -23,7 +23,7 @@ A minimal blog application built with **React + Vite**, **TailwindCSS**, and **A
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ```bash
 # Clone the repo
